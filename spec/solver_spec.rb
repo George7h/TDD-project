@@ -19,4 +19,13 @@ describe Solver do
       expect { subject.factorial(-1) }.to raise_error(ArgumentError, 'Input must be a non-negative integer')
     end
   end
+  describe '#reverse' do
+    it 'returns the reversed word' do
+      expect(subject.reverse('hello')).to eq('olleh')
+    end
+
+    it 'returns the reversed word for any input' do
+      expect(subject.reverse('world')).to eq('dlrow')
+    end
+  end
 end
