@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="TDD-logo.jpg" alt="logo" width="140"  height="auto" />
+<img src="TDD-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 <h3><b>TDD Project</b></h3>
